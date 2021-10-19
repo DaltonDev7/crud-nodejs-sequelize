@@ -19,7 +19,7 @@
     "database": "dfnllko66dsmst",
     "host": "ec2-54-92-230-7.compute-1.amazonaws.com",
     "dialect": "postgres",
-    "use_env_variable": "DATABASE_URL",
+     "use_env_variable": "DATABASE_URL",
     "ssl":true,
     "dialectOptions": {
       "ssl":{
