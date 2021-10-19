@@ -1,0 +1,24 @@
+{
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "crud  de practica, creando una api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.18.4",
+    "npm": "6.14.6"
+  },
+  "author": "dalton tejada",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.7.0"
+  }
+}
