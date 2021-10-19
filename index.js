@@ -10,8 +10,8 @@ const server = http.createServer(app);
 console.log(process.env.PORT);
 
 
-server.listen(5432, () => {
-    console.log(`Servidor corriendo en el puerto : ${5432}` );
+server.listen(process.env.PORT, () => {
+    console.log(`Servidor corriendo en el puerto : ${process.env.PORT}` );
 })
 
 
