@@ -4,8 +4,6 @@ const Peliculas = require('../models').Pelicula
 
 
 const Saludo = (req, res) => {
-
-
     res.json({
         'Saludo': 'Hola Mundo',
     })
@@ -43,7 +41,7 @@ const GetAll = (req, res = response) => {
 
 
     try {
-
+        
         Peliculas.findAll().then((data) => {
             res.status(200).json({
                 data
@@ -95,6 +93,8 @@ const Update = (req, res = response) => {
             Autor: req.body.Autor,
             Year: req.body.Year,
         }
+
+       
 
         Peliculas.update(peliculaUpdate, {
             where: {
