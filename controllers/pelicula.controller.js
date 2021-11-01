@@ -55,7 +55,6 @@ const GetAll = (req, res = response) => {
         });
     }
 
-
 }
 
 
